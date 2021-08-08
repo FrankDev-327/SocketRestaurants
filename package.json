@@ -1,0 +1,19 @@
+{
+  "name": "socket_restaurants",
+  "version": "1.0.0",
+  "description": "socket to send info to the differents screen",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "amqplib": "^0.8.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "moment": "^2.25.3",
+    "socket.io": "^2.3.0"
+  },
+  "keywords": [],
+  "author": "Francisco Gonzalez",
+  "license": "ISC"
+}
