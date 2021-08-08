@@ -15,8 +15,7 @@ io.on('connection', function (socket) {
          });
          channel.consume(_CACHEDB_, function (data) {
             let auxSend = data.content.toString();
-            //socket.broadcast.emit('order-view', auxSend);
-            socket.emit('order-view', auxSend);
+            socket.broadcast.emit('order-view', auxSend);
             channel.ack(data);
          });
       });
